@@ -21,4 +21,11 @@
 - [TTEncrypt] - for device_registeration to generate your own devices [Soon documentations would be published] - endpoint is on API
 - [Mssdk Enc/Dec] - for activating device_id, install_id, device_token by MSSDK for registration/login/follow [Soon documentations would be published] - endpoint is on API
 - [TTSignature] - for every request in TikTok, it requires signatures (xa,xl,xh,xk) in headers to confirm you are not automating it, mainly checking on lc_id, params, stub hash, support MSSDK "v05.02.00-android" onwards [views/likes/shares all requires this]
-- 
+### Why Some Parts Are Removed?
+- We do not want to expose some bypass rate limit methods to the public as they would make our lives harder [ex. TikTok changing their anti-system once again]
+- some of the functions are valuable and shouldn't be released
+- some of the botting types required supreme accounts and not useful for releasing it
+- some of them are for paid users
+### Can I Rent a Private Server Instead Of RapidAPI?
+- Of course you can, only if you need to use a lot of request
+- We can support up to 8K requests per second
