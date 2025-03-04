@@ -1,5 +1,18 @@
 # TikTok Mobile API
 ## Library for https://rapidapi.com/cybrixian-cybrixian-default/api/cybrix-bytedance1
+### News
+- Current MSSDK version - v05.01.07
+- Current storeIdc we support - maliva [mainly]
+- Current appId we support - 1233, 1180, 1340, 473824
+### Services?
+- views [change device to useast5 - currently maliva]
+- likes [working]
+- saves [working]
+- shares [working]
+- follows [working]
+- comments [working]
+- commentlike [working]
+- livecomments [working]
 ### How To Use?
 - change api_key in module.py
 - open mobile_api.py
